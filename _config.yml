@@ -1,6 +1,6 @@
 # Site settings
 title: Qi Wang
-SEOTitle: 王琦的博客 | Hux Blog
+SEOTitle: 王琦的博客 | Qi
 header-img: img/home-bg.jpg
 email: qw2261@columbia.edu
 description: "关于机器人、科幻与科学 | 王琦，Robotics Engineer | 这里是 王琦 的个人博客，与你一起探索世界。"
@@ -14,10 +14,10 @@ future: true
 # SNS settings
 RSS: false
 weibo_username:     qwang225
-#zhihu_username:     huxpro
+#zhihu_username:     
 github_username:    qw2261
-#twitter_username:   huxpro
-#facebook_username:  huxpro
+#twitter_username:   
+#facebook_username:  
 #linkedin_username:  firstname-lastname-idxxxx
 
 
