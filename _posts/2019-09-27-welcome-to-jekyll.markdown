@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "没有科学的世界 (一）"
+date:   2019-09-27 09:46:51 -0400
+categories: jekyll update
+---
+
+“很多年前，创世者凭借光的魔力来到这个世界，用水和泥塑造了我们的祖先，并以先知的身份告知了人类魔法的存在，于是魔法世界繁衍至今，我们所掌握的魔法也从最初的三原术到了今日的千万种。”
+浮在讲台上的老师一面让粉笔在黑板上奋笔疾书，一面向面前这些学生叙述着那段历史。
+“陈老师，光的魔力是什么，怎么从来没有听说过。”
+对从台下叽叽喳喳中冒出来的积极分子，老师略感欣慰，转而又感叹起来。
+“光的魔力，至今只有书中记载的先知做到过，即使有这么许多年来的大魔法师的研究，我们人类也是一无所获，但似乎某些法师也有了一个模糊的共识，这个光的魔力很可能超越了我们的从三原术衍生来的魔法框架，是不属于我们的。当然，这只是一种可能，更多人相信我们的不了解只是源于魔法的发展还不够，在某一个未来，或许我们可以解决这个问题。等到那一天，我们可以凭借光的魔力，穿梭到夜空里那些闪烁的星星上，这很奇妙吧？”
+这番话着实吸引了不少学生的关注。宇宙悬在人们头顶，对于这里大多的术士，作为三原术之一的飞行术早已稔熟于胸，似乎多高的天空也是可以被征服，然而至今那些渴望进入宇宙的术士都无力对抗星球边缘强力的结界。十多年前，最高学院里的资深飞行术师选择了闭关修行，在十年之后出关，向全国的人们宣布自己将挑战宇宙的计划。当场的景象被他的学生用意念转播，人们通过水晶球观看了术士的挑战。然而，这场浩浩荡荡的行动还是付诸失败了，术士依旧没能突破那层结界，身上的饰物均遭焚毁，遍体鳞伤而返，被送往了医疗院。自此之后，宇宙成了普通百姓的口头谈资，再也无人敢再挑战，甚而不少人传言星球的结界是超越先知而存在的，要突破它，只能寻求光的魔力。
+然而一切都太远，台下的学生对于真的冲出天空并不抱太大希望，只传来几个零零散散的回音。陈老师略有失望。那名曾经挑战宇宙的术士，便是他学业时代的导师，那场挑战，他也在现场。导师一头栽下而奄奄一息的情景，也还历历在目，人类最伟大的一场挑战落败，时至今日也不禁让他仍然叹息。下课的钟声随之响起，陈老师带着无奈宣布了下课，便往教室外飘去。
+自从导师挑战失败之后，陈凡已经在此留校教课多年，从最初的小陈到了现在的老陈。由于国家对精深飞行术的研究不再重视，陈凡也未能在这方面争取到足够的资源，研究也成了或有或无的产品，校方看在他毕竟来自高校，又见证了那场挑战，便把他留下当了个关于魔法发展史的讲师，许多年了也未能升正式职员，一直算是碌碌无为。
+陈凡返回办公室，放下课本，也准备就此结束这一天的工作。忽然就像想到了什么，开始翻一个装着陈旧物品的抽屉。
+“陈老师，今晚我们同事几个打算聚一聚，你一块去吗？”一名长相甜美的女老师正在门口向陈凡打招呼。
+虽说陈凡一向不太合群，但是对于拒绝一个长相甜美的女性，陈凡也没多大的信心，只好应了一声，停下了正在翻找的双手，心想着，不着急，明天再找也不迟。简单清理之后，陈凡便赶紧跟上了那名在等着他的女老师。
+“我来了，林老师久等了。”
+
+
+<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ -->
