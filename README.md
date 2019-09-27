@@ -1,2 +1,2 @@
-# qw2261.github.io
-My Blog
+# Qi's Personal Blog
+This is built by Qi Wang and supported by jekylly.
