@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Qi Wang
+SEOTitle: 王琦的博客 | Hux Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
+email: qw2261@columbia.edu
+description: "关于机器人、科幻与科学 | 王琦，Robotics Engineer | 这里是 王琦 的个人博客，与你一起探索世界。"
+keyword: "王琦, 计算机科学, 互联网, 机器人, 科幻小说"
+url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+weibo_username:     qwang225
+#zhihu_username:     huxpro
+github_username:    qw2261
+#twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
