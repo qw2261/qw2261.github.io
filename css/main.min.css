@@ -4497,16 +4497,17 @@ body {
     margin: 0 5px
 }
 
-.article-wrap.p.force{
-    width: 10%;
-}
-/* .right-wrap {
-    width: 20%;
-    display: block;
+
+.down-social {
+    /* display: block; */
     float: right;
-    zoom: 1;
-    margin: 100px;
-} */
+    margin: 5px;
+    font-size: 14px;
+    font-size: .875rem;
+    color: #111
+}
+
+
 
 .footer-wrap {
     width: 100%;

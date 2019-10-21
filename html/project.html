@@ -109,7 +109,7 @@
           src="../img/github-icon.png"> Github</a>
       <a href="https://www.linkedin.com/in/qwangmatt/detail/background-image/" class="author-social"
         target="_blank"><img class="iconimg" src="../img/linkedin-icon.jpg"> LinkedIn</a>
-      <a href="qw2261@columbia.edu" class="author-social" target="_blank"><img class="iconimg"
+      <a href="mailto:qw2261@columbia.edu" class="author-social" target="_blank"><img class="iconimg"
           src="../img/email-icon.png"> Email</a>
 
 
@@ -144,30 +144,37 @@
         </p>
         <br />
         <p>
-          Then, based on equation <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;J^T[F_x,&space;F_y,&space;F_z,&space;\tau_x,&space;\tau_y,&space;\tau_z]&space;=&space;[\tau_1,&space;\tau_2,&space;\tau_3,&space;\tau_4,&space;\tau_5,&space;\tau_6]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;J^T[F_x,&space;F_y,&space;F_z,&space;\tau_x,&space;\tau_y,&space;\tau_z]&space;=&space;[\tau_1,&space;\tau_2,&space;\tau_3,&space;\tau_4,&space;\tau_5,&space;\tau_6]" title="J^T[F_x, F_y, F_z, \tau_x, \tau_y, \tau_z] = [\tau_1, \tau_2, \tau_3, \tau_4, \tau_5, \tau_6]" /></a>, 
+          Then, based on equation <a
+            href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;J^T[F_x,&space;F_y,&space;F_z,&space;\tau_x,&space;\tau_y,&space;\tau_z]&space;=&space;[\tau_1,&space;\tau_2,&space;\tau_3,&space;\tau_4,&space;\tau_5,&space;\tau_6]"
+            target="_blank"><img
+              src="https://latex.codecogs.com/gif.latex?\inline&space;J^T[F_x,&space;F_y,&space;F_z,&space;\tau_x,&space;\tau_y,&space;\tau_z]&space;=&space;[\tau_1,&space;\tau_2,&space;\tau_3,&space;\tau_4,&space;\tau_5,&space;\tau_6]"
+              title="J^T[F_x, F_y, F_z, \tau_x, \tau_y, \tau_z] = [\tau_1, \tau_2, \tau_3, \tau_4, \tau_5, \tau_6]" /></a>,
           I used <a href="https://moveit.ros.org/">MoveIt!</a> to obtain the joint states and Jacobian
-          matrix based upon URDF of Aubo Robot to compute the force and torque in the end-effector with the help of Eigen
-          in C++ for matrix evaluation. The computed force and torque in the end-effector are published in a /Wrench topic 
-          as WrenchStamp msg with a frequency of 100 hz. 
+          matrix based upon URDF of Aubo Robot to compute the force and torque in the end-effector with the help of
+          Eigen
+          in C++ for matrix evaluation. The computed force and torque in the end-effector are published in a /Wrench
+          topic
+          as WrenchStamp msg with a frequency of 100 hz.
         </p>
         <br />
         <p>
           Then, I put forward a force feedback system. The principle is that the laser in the end-effector
-          will keep inspecting the distance between the end-effector and object and reminds system to mark 
+          will keep inspecting the distance between the end-effector and object and reminds system to mark
           current force as force threshold when the distance becomes smaller than the distance threshold which
           is set according to experience in various working environments. Then, as the end-effector constantly closes
-          to object, the system will examine whether the force difference between current force and force threshold 
-          is larger than the set force_difference_threshold. Once the system confirms the result that force difference 
-          is too large, the state of robot will be updated as touched and follow up a series of operations according to the 
+          to object, the system will examine whether the force difference between current force and force threshold
+          is larger than the set force_difference_threshold. Once the system confirms the result that force difference
+          is too large, the state of robot will be updated as touched and follow up a series of operations according to
+          the
           robot task.
-          
+
         </p>
         <br />
         <h4>
           2. Mortar Injection
         </h4>
         <br />
-        
+
         <img src="../photo/roboticplus.jpeg" alt="RoboticPlus">"
 
 
@@ -185,7 +192,13 @@
   <div class="footer-wrap">
     <footer>
       <span>&copy; 2019 Qi Wang. Powered by <a href="http://jekyllrb.com">Jekyll</a>.</span>
-
+      <a href="https://github.com/qw2261" class="down-social" target="_blank"><img class="iconimg"
+          src="../img/github-icon.png">
+        Github</a>
+      <a href="https://www.linkedin.com/in/qwangmatt/detail/background-image/" class="down-social" target="_blank"><img
+          class="iconimg" src="../img/linkedin-icon.jpg"> LinkedIn</a>
+      <a href="mailto:qw2261@columbia.edu" class="down-social" target="_blank"><img class="iconimg" src="../img/email-icon.png">
+        Email</a>
     </footer>
   </div><!-- /.footer-wrap -->
 
