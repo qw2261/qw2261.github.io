@@ -22,7 +22,7 @@
   <meta property="og:site_name" content="Qi Wang's site">
 
 
-	<link rel="icon" type="image/png" href="../img/title-icon.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="../img/title-icon.png" sizes="32x32" />
   <link href="js/feed.xml" type="application/atom+xml" rel="alternate" title="Qi Wang's site Feed">
   <link rel="canonical" href="http://qw2261.github.io">
 
@@ -167,22 +167,46 @@
           to object, the system will examine whether the force difference between current force and force threshold
           is larger than the set force_difference_threshold. Once the system confirms the result that force difference
           is too large, the state of robot will be updated as touched and follow up a series of operations according to
-          the
-          robot task.
-
+          the robot task.
         </p>
         <br />
         <h4>
           2. Mortar Injection
         </h4>
+        <p>
+          After completion of Force Feedback System, I am assigned a project to finish the moratr Injection
+          process design. In my design, the robot arm will initially to move to a position to scan the ARcode
+          by camera to recoginize the accurate position of the board. Then the robot will plan to suck the board
+          with the help of the Aubo Force Feedback System. The detail of operation is shown in the video.
+        </p>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/7tuRClAwbnk" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br />
-
-        <img src="../photo/roboticplus.jpeg" alt="RoboticPlus">"
-
-
-
+        <p>
+          Once sucking the board, the robot arm with board will move to initial position to start mortar Injection.
+          Based on reacheable range of robot arm and the reason that we are not willing to inject the mortar on the
+          surface of tile
+          to lower the cleanness, the robot will autonomously adjust the injecting range (with and length) according to
+          the position of
+          corner of tile of last unit in the base link coordinate, which will be completed before sucking board and is a
+          operation that
+          the robot arm will move to neighbor of tile of last unit to compute the corner position. Then, I implement
+          computeCartesianPath in <a href="https://moveit.ros.org/">MoveIt!</a> to finish the injecting process as the
+          video shows.
+        </p>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/y2w0eC6z7mc" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br />
+        <p>
+          The final result could be like the picture below with the help of scraper.
+        </p>
+        <img src="../img/injecting.jpeg" alt="Result">
         <br><br>
 
+        <p>
+          This is our group photo.
+        </p>
+        <img src="../photo/roboticplus.jpeg" alt="RoboticPlus">"
 
 
 
@@ -200,7 +224,8 @@
         Github</a>
       <a href="https://www.linkedin.com/in/qwangmatt/detail/background-image/" class="down-social" target="_blank"><img
           class="iconimg" src="../img/linkedin-icon.jpg"> LinkedIn</a>
-      <a href="mailto:qw2261@columbia.edu" class="down-social" target="_blank"><img class="iconimg" src="../img/email-icon.png">
+      <a href="mailto:qw2261@columbia.edu" class="down-social" target="_blank"><img class="iconimg"
+          src="../img/email-icon.png">
         Email</a>
     </footer>
   </div><!-- /.footer-wrap -->
