@@ -1,0 +1,566 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Columbia University EECS E4764 IoT Project Report 2019 Fall Group 3</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+		<div class="top">
+
+			<!-- Logo -->
+			<div id="logo">
+				<!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span> -->
+				<h1 id="title">Smart Movable Trash-Bin With Trash Identification in Office</h1>
+				<p>Columbia University <br>
+					EECS E4764 Fall'19 Internet of Things<br>
+					Intelligent and Connected Systems<br>
+					Team 3 Project Report
+				</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+				<ul>
+					<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span
+								class="icon fa-home">Abstract</span></a></li>
+					<li><a href="#motivation" id="motivation-link" class="skel-layers-ignoreHref"><span
+								class="icon fa-th">Motivation</span></a></li>
+					<li><a href="#system" id="system-link" class="skel-layers-ignoreHref"><span
+								class="icon fa-th">System</span></a></li>
+					<li><a href="#results" id="results-link" class="skel-layers-ignoreHref"><span
+								class="icon fa-th">Results</span></a></li>
+					<li><a href="#references" id="references-link" class="skel-layers-ignoreHref"><span
+								class="icon fa-th">References</span></a></li>
+					<li><a href="#team" id="team-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Our
+								Team</span></a></li>
+					<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span
+								class="icon fa-envelope">Contact</span></a></li>
+				</ul>
+			</nav>
+
+		</div>
+
+		<div class="bottom">
+
+			<!-- Social Icons -->
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Intro -->
+		<section id="top" class="one dark cover">
+			<div class="container">
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/5ggCkcRDrto" frameborder="0"
+					allowfullscreen></iframe>
+
+				<h2 class="alt">Smart Movable Trash-Bin With Trash Identification in Office</h2>
+				<p>Smart Movable Trash-Bin (SMTB) is an IoT solution to current trash sorting problem in office.
+					Currently, the trash sorting is a trend and a remedial action to save the environment, which
+					becomes a policy of great significance in numerous countries and cities. However, people, especially
+					the officer in office, who are not going to have a single trash-bin suffers
+					from the trash sorting and often feel confused about the trash type every time they are going to
+					drop trash. Our project aims to automate
+					the process in the origin, which means when people drop trash, the trash is accurately identifed as
+					the trash type, including metal, plastic, glass, paper, cardboard (recyclable in most regions)
+					and trash (unrecyclable). In addition, our target is to make it as a intelligent project.
+					Since in most cases, officers should share a common trash-bin and need to move when they have trash.
+					But
+					with our design, user can directly use phone to call our SMTB to come to his/her postion and user
+					can
+					simply put trash in and SMTB intelligently identify the trash type and go back orginal place for
+					sorting and collecting.
+				</p>
+				<p>
+					With SMTB, officers will benefit from simplification of dropping trash and trash sorting; office
+					will become more clean; government will benefit from the energy conservation resulting from resource
+					reuse.
+					We hope our project will make a difference to the world.
+				</p>
+
+
+				<footer>
+					<a href="#motivation" class="button scrolly">Motivation</a>
+				</footer>
+
+			</div>
+		</section>
+
+		<!-- Portfolio -->
+		<section id="motivation" class="two">
+			<div class="container">
+
+				<header>
+					<h2>Motivation</h2>
+				</header>
+				<img src="https://www.telegraph.co.uk/content/dam/news/peoples-daily/chinese-woman-emptying-bin.jpg"
+					style="width:500px;height:300px;">
+				<p align="left">
+					2019 has witnessed the stablishment of compulsary trash-sorting policy in many major
+					cities in China and USA. Our self-trash-sorting trash-bin will help people figure out the correct
+					sort of
+					trash. It will save people's time and also avoid the incorrect-sorting case.</p>
+
+				<img src="https://www.simplehuman.com/media/wysiwyg/feature-chapter/rectangular-sensor-can2-sensor-D.jpg"
+					style="width:500px;height:300px;">
+				<p align="left">Smart house and office products like smart sweepers have become popular theses days.
+					While most smart trash-bin products in market fail to provide user-friendly and fully automative
+					service but
+					only with functions of great confinement such as auto-opening using voice or movition sensor, our
+					project is going to provide a new perspective.
+				</p>
+
+
+				<p align="left">
+					Our motivation fully automating the trash collecting and sorting stimulates us to
+					create SMTB.
+				</p>
+
+				<p align="left">
+					The SMTB designed by us still resembles the use logic of theses product to make all functions
+					accessible from phone. However,
+					we manage to make the trash collecting and trash sorting automated in SMTB.
+					When user use the phone to call SMTB, it will immediately approach users once there is no other
+					unfinished command.
+					Then it will collect the trash and identify the trash type. At the same time, SMTB will come back to
+					the original place
+					for battery charging, trash collection and waiting for the next command.
+					We hope SMTB provides user-friendly enough service for users.
+				</p>
+
+
+			</div>
+		</section>
+
+
+		<section id="system" class="three">
+			<div class="container">
+
+				<header>
+					<h2>System</h2>
+				</header>
+
+				<h3 align="left">Architecture</h3>
+
+				<p align="left"></p>
+				<img src="images/architecture.png" style="width:500px;height:300px;">
+
+
+				<h3 align="left">Technical Components</h3>
+
+
+				<p align="left">
+					There are three main technical components:
+				</p>
+
+				<strong>
+					<h4>APP Design</h4>
+				</strong>
+				</br>
+				<img src="./images/app1.jpeg" style="width:150px;height:300px;">
+				<p align="left">
+					We used Android Studio to develop a phone APP. There are two functions along with 3 layouts. When
+					the APP is launched, users will see the homepage with two buttons on it. One is used to redirected
+					to take_photo layout, the other is used to call_trash_can layout.
+				</p>
+				<img src="./images/app1.jpeg" style="width:150px;height:300px;">
+				<p align="left">
+					Take_photo layout is the page where users can identify the type of trash without calling the
+					trash-can. Just take a photo and upload it to server, the result will be shown on the page. Clicking
+					the HOME button can redirected to home page.
+
+				</p>
+				<img src="./images/app1.jpeg" style="width:150px;height:300px;">
+				<p align="left">
+					Call_trash_can will interact with the trash-can. Users enter his position and click request button,
+					server will handle this request. The response status received from server will be displayed on this
+					page. If the response is "successful", the trash-can will come.
+				</p>
+
+				<strong>
+					<h4>Server Design</h4>
+				</strong>
+				</br>
+				<img src="./images/server.png" style="width:500px;height:300px;">
+				<p align="left">
+					The server is built by Django and there are '/recommend', '/identify', '/acceptCommand'
+					and '/actCommand'. We make it public in the internet using ngrok. Then trash identification model
+					is set up to identify the trash type of incoming images.
+				</p>
+				<p align="left">
+					The image taken by phone can be post through '/recommend' to server. The server will save the image
+					and load the trash identification model to obtain the result and return the result to the app of
+					smart phone.
+				</p>
+				<img src="./images/ESP8266.png" style="width:500px;height:300px;">
+				<p align="left">
+					Due to limit of budget and time, the camera and ESP8266 in SMTB have a not good as enough
+					performance in photo taking,
+					which can only take a image and transfer every 10 bytes to the server. So after taking photo,
+					ESP8266 will upload the image to
+					server through '/identify'. Our server is going to take around 2 minutes
+					to receive the whole image and then convert it to a real image from bytes. The results of
+					identification will be saved for
+					trash sorting.
+				</p>
+				<p align="left">
+					Besides, ESP8266 board listens to '/actCommand' in a fixed frequency (currently 3 seconds/ 1 cycle)
+					to know whether or not there is new command from users. Once it detects the command,
+					it will interact with STM32 in the car to deliver the instruction. Then the car will follow the
+					instruction, such as "move to position A"
+					("A" is a calibrated position in office map), to find a path to the required position.
+				</p>
+				<p align="left">
+					In addition to the connection between server and SMTB, there is definitely a connection between
+					server and user.
+					The user can directly uses the app in the phone. The sent command will be stored in server and
+					server will return the status of
+					command processing situation to let user know if the command can be processed or not.
+				</p>
+				<p align="left">
+					Our trash identification model is built using tensorflow and model Inception-V3 architecture.
+					The top layer receives as input a 2048-dimensional vector for each image. We
+					train a softmax layer on top of this representation. Assuming the softmax layer
+					contains N labels, this corresponds to learning N + 2048 * N model parameters
+					corresponding to the learned biases and weights. We define the subfolder names as the label.
+					Also, we use scrapy and beautiful soap to collect images based on the trash type to server as part
+					of
+					training set. Furthermore, we also collect samples and loads part of images as training set.
+				</p>
+
+
+
+
+				<strong>
+					<h4>Car Design</h4>
+				</strong>
+				</br>
+
+				<p align="left">
+					The car has two parts, a trash can and an
+					omnidirectional chassis.
+				</p>
+				<p align="left">
+					The trash can has an OV2640 camera on its top to take the
+					picture of the trash. We use an ESP8266 board to read the camera with SPI
+					protocol and upload the image to the server.
+				</p>
+				<p align="left">
+					To realize omnidirectional movement, we use four Mecanum
+					wheels so that it’s much more easier for the trash can to navigate, avoid
+					obstacle and adjust its attitude. However, due to the budget limits, the whole
+					chassis is controlled only by a STM32F407 board so theoretically the timer and
+					uart is not enough for the whole chassis. As a result, all four motors are
+					open-loop controlled. Only the chassis has a position closed-loop control which
+					means the navigation is harded.
+				</p>
+				<img src="./images/car_design.png" style="width:500px;height:300px;">
+				<p align="left">
+					We build a localization system with two orthogonal placed
+					encoders and an IMU, which gives the chassis its acceleration, speed, position
+					and attitude. Since manufacturing methods are limited to laser engraving and 3D
+					printer, we cannot make a robust encoder system. So we failed to narrow the
+					localization error with a better algorithm based on non-orthogonal arranged
+					encoders and very accurate calibration.
+				</p>
+
+
+
+
+				<h3 align="left">Prototype</h3>
+
+				<img src="./images/prototype.jpeg" style="width:500px;height:300px;">
+				<p align="left">
+					The prototype was built with the combination of a car and trash bin on the top.
+				</p>
+				<img src="./images/server_prototype.png" style="width:500px;height:300px;">
+				<p align="left">
+					The server is temporarily public in the internet by ngrok.
+				</p>
+				<img src="./images/app_prototype1.png" style="width:500px;height:300px;">
+				<img src="./images/app_prototype2.png" style="width:500px;height:300px;">
+				<p align="left">
+					The app is built by Android Studio.
+				</p>
+
+			</div>
+		</section>
+
+
+		<section id="results" class="two">
+			<div class="container">
+
+				<header>
+					<h2>Results</h2>
+				</header>
+
+				<img src="./images/result_1.png" style="width:500px;height:300px;">
+				<p align="left">
+					We have completed most parts of our wish list.
+				</p>
+
+				<img src="./images/result_2.png" style="width:500px;height:300px;">
+				<p align="left">
+					And we nearly reach Gold outcome except the obstacle avoiding.
+				</p>
+
+				<img src="./images/result_4.png" style="width:500px;height:300px;">
+				<p align="left">
+					We have overcome most important and difficult problem.
+				</p>
+
+				<img src="./images/result_3.png" style="width:500px;height:300px;">
+				<p align="left">
+					The accuracy of trash identification in training set and validation set
+					reaches up to 87%. And it can accurately identify the trash type in images whichever
+					is from phone or camera in SMTB.
+				</p>
+
+				<p align="left">
+					The car has a stable and accurate localization as shown in the demo video.
+				</p>
+
+				<p align="left">
+					The phone can simply take a photo of trash and display the identified trash type.
+					Also, it allows user to monitor the SMTB and send command to SMTB to process.
+				</p>
+
+
+
+
+
+
+
+
+				<!-- <article class="item">
+					<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+					<header>
+						<h3>Caption</h3>
+					</header>
+				</article> -->
+
+
+			</div>
+		</section>
+
+		<section id="references" class="three">
+			<div class="container">
+
+				<header>
+					<h2>References</h2>
+				</header>
+
+				<p align="left">
+					[1] B. Chowdhury and M. U. Chowdhury, “RFID-based Real-time Smart Waste Management System,” in
+					Australasian Telecommunication Networks and Applications Conference, 2007, no. December, pp.
+					175–180.​
+				</p>
+				<p align="left">
+					[2] A. Zanella, N. Bui, A. Castellani, L. Vangelista, and M. Zorzi, “Internet of Things for Smart
+					Cities,” IEEE Internet Things J., vol. 1, no. 1, pp. 22–32, 2014.​
+				</p>
+				<p align="left">
+					[3] F. Mattern, “From smart devices to smart everyday objects,” Proc. Smart Objects Conf., no.
+					April, pp. 15–16, 2003.​
+				</p>
+				<p align="left">
+					[4] BigBellySolar, “CNN - Solar Powered Trash Compactors,” 2010. [Online]. Available:
+					https://www.youtube.com/watch?v=8e8Be9rq_C8.​
+				</p>
+				<p align="left">
+					[5] S. Zavare, R. Parashare, S. Patil, P. Rathod, and P. V. Babanne, “Smart City Waste Management
+					System Using GSM,” Int. J. Comput. Sci. Trends Technol., vol. 5, no. 3, pp. 74–78, 2017.​
+				</p>
+				<p align="left">
+					[6] T. Singh, R. Mahajan, and D. Bagai, “Smart Waste Management using Wireless Sensor Network,”
+					Int.
+					J. Innov. Res. Comput. Commun. Eng., vol. 4, no. 6, pp. 10343–10347, 2016.​
+				</p>
+				<p align="left">
+					[7] S. S. Navghane, M. S. Killedar, and V. M. Rohokale, “IoT Based Smart Garbage and Waste
+					Collection Bin,” Int. J. Adv. Res. Electron. Commun. Eng., vol. 5, no. 5, pp. 1576–1578, 2016.​
+				</p>
+				<p align="left">
+					[8] T. Ambrose, C. Ford, and M. Norris, “Smart City Trash Cans,” California Polytechnic State
+					University, 2015.​
+				</p>
+				<p align="left">
+					[9] Ecube Labs, “Smart Waste Management System | Waste Analytics | Ecube Labs.” [Online].
+					Available:
+					http://ecubelabs.com/.​
+				</p>
+				<p align="left">
+					[10] Bigbelly, “Bigbelly - Smart City Solutions.” [Online]. Available: http://bigbelly.com/.​
+				</p align="left">
+
+			</div>
+		</section>
+
+
+		<!-- About Me -->
+		<section id="team" class="two">
+			<div class="container">
+
+				<header>
+					<h2>Our Team</h2>
+				</header>
+
+				<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+
+
+				<div class="row">
+					<div class="4u 12u$(mobile)">
+						<article class="item">
+							<a href="#" class="image fit"><img src="https://qw2261.github.io/img/head.jpeg"
+									alt="" /></a>
+							<header>
+								<h3><a href="https://qw2261.github.io/">Qi Wang</a></h3>
+								<p>I am a master student in the Department of Mechanical Engineering in Robotics at
+									Columbia University.
+								</p>
+								<p>
+									I love traveling and food, which might be the origin of happiness in life. As a
+									Chinese saying goes, "thounds of books reading will be less than a thousand mile
+									traving". I love to visit places of books that I read, such as Taiwan, Beijing,
+									Harbin and Korea. Those places leave me great impressions. As for cooking, it
+									might
+									be a necessary skills for a student living far away from hometown. I practice
+									Chinese food a lot. Hope to share with you someday!
+								</p>
+								
+							</header>
+						</article>
+					</div>
+					<div class="4u 12u$(mobile)">
+						<article class="item">
+							<a href="#" class="image fit"><img src="./images/yunqingxiao.png" alt="" /></a>
+							<header>
+								<h3><a href="https://www.linkedin.com/in/yunqingxiao/">Yunqing Xiao</a></h3>
+								<p>Yunqing XiaoColumbia University, M.S. in Computer Engineering
+									Huazhong University of Science and Technology, B.S. in Biomedical Engineering
+								</p>
+							</header>
+						</article>
+					</div>
+					<div class="4u$ 12u$(mobile)">
+						<article class="item">
+							<a href="#" class="image fit"><img src="./images/zhihaozheng.jpeg" alt="" /></a>
+							<header>
+								<h3>Zhihao Zheng</h3>
+								<p>I am a master student of computer engineering program at Columbia University and take
+									charge of the chassis of the project.</p>
+							</header>
+						</article>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="four">
+			<div class="container">
+
+				<header>
+					<h2>Contact</h2>
+				</header>
+
+				<p align="left">
+					<strong>Qi Wang: </strong>qw2261@columbia.edu</br>
+					<strong>Yunqing Xiao: </strong>yx2542@columbia.edu</br>
+					<strong>Zhihao Zheng: </strong>zz2698@columbia.edu</br>
+					</br>
+
+					<a href="https://github.com/qw2261/IoT-Project"><strong>Project Code</strong></a> is uploaded to
+					GitHub!</br>
+
+					</br>
+					<strong>Columbia University </strong><a href="http://www.ee.columbia.edu">Department of Electrical
+						Engineering</a><br>
+					<!-- <strong>Class Website:</strong>
+									<a href="https://edblogs.columbia.edu/eecs4764-001-2019-3/">Columbia University EECS E4764 Fall '19 IoT</a></br> -->
+					<strong>Instructor:</strong> <a href="http://fredjiang.com/">Professsor Xiaofan (Fred) Jiang</a>
+				</p>
+
+
+				<!-- <form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form> -->
+
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy; IoT Project | All rights reserved.</li>
+			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollzer.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
