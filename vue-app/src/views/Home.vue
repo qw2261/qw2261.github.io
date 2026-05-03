@@ -1,6 +1,33 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold">Home</h1>
-    <p class="text-gray-500 mt-2">Page under construction</p>
+    <h1 class="text-2xl font-bold text-gray-900">Hi, Welcome!</h1>
+    <div class="mt-4 space-y-4 text-gray-700">
+      <h3 class="text-lg font-semibold">Nice To Meet U All!</h3>
+      <p>
+        I am a master student in the
+        <a href="https://me.columbia.edu/" class="text-blue-600 hover:underline">Department of Mechanical Engineering
+          in Robotics</a>
+        at
+        <a href="https://www.columbia.edu/" class="text-blue-600 hover:underline">Columbia University</a>. I obtained
+        my bachelor degree from
+        <a href="https://www.cityu.edu.hk/" class="text-blue-600 hover:underline">City University of Hong Kong</a>
+        in Energy Science and Engineering major and Computer Science minor in 2014.
+      </p>
+      <p>
+        I love traveling and food, which might be the origin of happiness in life.
+        As a Chinese saying goes, "thounds of books reading will be less than a thousand mile traving".
+        I love to visit places of books that I read, such as Taiwan, Beijing, Harbin and Korea.
+        Those places leave me great impressions. As for cooking, it might be a necessary skills
+        for a student living far away from hometown. I practice Chinese food a lot. Hope to share with you someday!
+      </p>
+      <p>
+        Also, as a lover of robotics, I participated a research about tiling robot design in
+        <a href="https://www.linkedin.com/company/roboticplus/" class="text-blue-600 hover:underline">RoboticPlus</a>,
+        which is a intelligent robot that can complete tiling autonomously. In my opinion, the development
+        of robotics might change the architecture field and making future building more intelligent and
+        friendly. In the following years, I hope I will have more chances to create innovations and strengthen myself in
+        robotics field.
+      </p>
+    </div>
   </div>
 </template>

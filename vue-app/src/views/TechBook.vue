@@ -1,6 +1,10 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold">TechBook</h1>
-    <p class="text-gray-500 mt-2">Page under construction</p>
+    <iframe
+      src="/studys/TechBook.html"
+      class="w-full border-0"
+      style="min-height: 80vh;"
+      title="TechBook"
+    ></iframe>
   </div>
 </template>

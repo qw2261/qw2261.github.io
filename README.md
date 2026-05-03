@@ -62,7 +62,7 @@ blog/
 |-------|------|---------|------|
 | M0 脚手架搭建 | ✅ 已完成 | 2026-05-03 | Vue3 + Vite + Tailwind CSS + Vue Router，开发服务器和构建均正常 |
 | M1 布局 + 导航 | ✅ 已完成 | 2026-05-03 | Header / Footer / Sidebar / Dropdown 组件，SPA 路由跳转，响应式移动端适配 |
-| M2 逐页迁移内容 | ⬜ 待开始 | | Home → Project → Bio → Share → TechBook → GroupProject |
+| M2 逐页迁移内容 | ✅ 已完成 | 2026-05-03 | 6 页内容全部迁移，图片/PDF/iframe 路径一致，构建通过 65 modules |
 | M3 博客系统 | ⬜ 待开始 | | 数据驱动博客列表 + 文章详情 |
 | M4 构建验证 | ⬜ 待开始 | | 静态资源迁移，`npm run build` 产出独立可运行 |
 | M5 部署上线 | ⬜ 待开始 | | GitHub Actions 部署，旧站替换 |
