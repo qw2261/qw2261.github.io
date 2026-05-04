@@ -11,8 +11,8 @@
       </p>
       <p>
         I hold a master's degree in <strong>Robotics</strong> from
-        <a href="https://www.columbia.edu/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Columbia University</a>, where I worked on autonomous planning and AI-powered visual recognition systems, including a trash-classifying cleaning robot and video recommendation systems. I obtained my bachelor's degree from
-        <a href="https://www.cityu.edu.hk/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">City University of Hong Kong</a>
+        <a href="https://www.columbia.edu/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Columbia University</a>, where I worked on autonomous planning and AI-powered visual recognition systems, including a trash-classifying cleaning robot and video recommendation systems. I obtained my bachelor's degree from
+        <a href="https://www.cityu.edu.hk/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">City University of Hong Kong</a>
         in Energy Science and Engineering and Computer Science in 2014.
       </p>
       <p>

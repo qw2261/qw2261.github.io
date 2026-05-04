@@ -195,14 +195,14 @@
           <div class="text-center">
             <img src="/img/group/qiwang.jpeg" alt="Qi Wang" class="w-32 h-32 rounded-full mx-auto object-cover" />
             <h3 class="font-semibold mt-2">
-              <a href="https://qw2261.github.io/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Qi Wang</a>
+              <a href="https://qw2261.github.io/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Qi Wang</a>
             </h3>
             <p class="text-sm mt-1">Master student in Mechanical Engineering (Robotics) at Columbia University.</p>
           </div>
           <div class="text-center">
             <img src="/img/group/yunqingxiao.png" alt="Yunqing Xiao" class="w-32 h-32 rounded-full mx-auto object-cover" />
             <h3 class="font-semibold mt-2">
-              <a href="https://www.linkedin.com/in/yunqingxiao/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Yunqing Xiao</a>
+              <a href="https://www.linkedin.com/in/yunqingxiao/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Yunqing Xiao</a>
             </h3>
             <p class="text-sm mt-1">Master student in Computer Engineering at Columbia University.</p>
           </div>
@@ -224,11 +224,11 @@
               class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">yx2542@columbia.edu</a></p>
           <p><strong>Zhihao Zheng: </strong><a href="mailto:zz2698@columbia.edu"
               class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">zz2698@columbia.edu</a></p>
-          <p class="mt-2"><a href="https://github.com/qw2261/IoT-Project" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors"><strong>Project
+          <p class="mt-2"><a href="https://github.com/qw2261/IoT-Project" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors"><strong>Project
                 Code</strong></a> is uploaded to GitHub!</p>
-          <p class="mt-2"><strong>Columbia University </strong><a href="http://www.ee.columbia.edu"
+          <p class="mt-2"><strong>Columbia University </strong><a href="http://www.ee.columbia.edu" target="_blank" rel="noopener noreferrer"
               class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Department of Electrical Engineering</a></p>
-          <p><strong>Instructor:</strong> <a href="http://fredjiang.com/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Professor
+          <p><strong>Instructor:</strong> <a href="http://fredjiang.com/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Professor
               Xiaofan (Fred) Jiang</a></p>
         </div>
       </section>

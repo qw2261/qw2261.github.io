@@ -11,23 +11,24 @@
 
 ### 包管理
 
-项目使用 **npm**，所有操作在 `vue-app/` 子目录中执行。
+项目使用 **npm**，所有操作在 `blog/` 根目录中执行。
 
 ```bash
-cd vue-app
+cd blog
 npm install        # 安装依赖（仅首次或 package.json 变更后）
 ```
 
 ### 启动开发服务器
 
 ```bash
-cd vue-app
+cd blog
 npm run dev        # 启动后访问 http://localhost:5173
 ```
 
 ### 构建生产版本
 
 ```bash
+cd blog
 npm run build      # 输出到 dist/
 npm run preview    # 本地预览构建产物
 ```

@@ -15,10 +15,10 @@
 
         <h4 class="text-base font-semibold mt-4">1. Aubo Force Feedback System</h4>
         <p class="mt-2">
-          I visited <a href="https://github.com/lg609/aubo_robot" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Aubo Official
+          I visited <a href="https://github.com/lg609/aubo_robot" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Aubo Official
             SDK</a> and
           collected electrical current of every joint. From
-          <a href="https://journals.sagepub.com/doi/full/10.1177/1729881419846712" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">a
+          <a href="https://journals.sagepub.com/doi/full/10.1177/1729881419846712" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">a
             paper</a>
           , there should be a linear regression model for currents and joint torques. In this way, I used
           torque sensor to collect torques and corresponding currents. After that, I trained a linear
@@ -29,7 +29,7 @@
           <img
             src="https://latex.codecogs.com/gif.latex?\inline&space;J^T[F_x,&space;F_y,&space;F_z,&space;\tau_x,&space;\tau_y,&space;\tau_z]&space;=&space;[\tau_1,&space;\tau_2,&space;\tau_3,&space;\tau_4,&space;\tau_5,&space;\tau_6]"
             class="inline-block align-middle my-2" />,
-          I used <a href="https://moveit.ros.org/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">MoveIt!</a> to obtain the joint
+          I used <a href="https://moveit.ros.org/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">MoveIt!</a> to obtain the joint
           states and Jacobian
           matrix based upon URDF of Aubo Robot to compute the force and torque in the end-effector with the help of
           Eigen
@@ -69,7 +69,7 @@
           corner of tile of last unit in the base link coordinate, which will be completed before sucking board and is a
           operation that
           the robot arm will move to neighbor of tile of last unit to compute the corner position. Then, I implement
-          computeCartesianPath in <a href="https://moveit.ros.org/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">MoveIt!</a> to
+          computeCartesianPath in <a href="https://moveit.ros.org/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">MoveIt!</a> to
           finish the injecting process as the
           video shows.
         </p>
@@ -119,7 +119,7 @@
           <router-link to="/project/iot" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">IOT SMART MOVABLE TRASH BIN
             PROJECT</router-link>
           and the code in
-          <a href="https://github.com/qw2261/IoT-Project" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">my github
+          <a href="https://github.com/qw2261/IoT-Project" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">my github
             repository</a>.
         </p>
       </section>
