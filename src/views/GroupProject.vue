@@ -2,7 +2,7 @@
   <div>
     <h1 class="text-2xl font-bold text-gray-900 font-serif">Smart Movable Trash-Bin With Trash Identification in Office</h1>
     <p class="text-sm text-gray-400 mt-1 font-mono">Columbia University · EECS E4764 Fall'19 · Team 3 Project Report</p>
-    <div class="mt-6 space-y-8 text-gray-700 font-serif leading-relaxed">
+    <div class="mt-6 space-y-8 text-gray-700 font-serif leading-relaxed text-justify">
 
       <section id="abstract">
         <div class="relative w-full" style="padding-bottom: 56.25%; height: 0;">
@@ -79,18 +79,18 @@
         <p class="mt-2">There are three main technical components:</p>
 
         <h4 class="text-base font-semibold mt-4">APP Design</h4>
-        <div class="flex flex-wrap gap-4 mt-2">
-          <div class="text-center">
-            <img src="/img/group/app1.jpeg" class="w-40" alt="App Screenshot 1" />
-            <p class="text-sm mt-1">Home page with two buttons</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
+          <div class="flex flex-col items-center">
+            <img src="/img/group/app1.jpeg" class="w-full max-w-xs object-contain" alt="App Screenshot 1" />
+            <p class="text-sm mt-2 text-center">Home page with two buttons</p>
           </div>
-          <div class="text-center">
-            <img src="/img/group/app2.jpeg" class="w-40" alt="App Screenshot 2" />
-            <p class="text-sm mt-1">Take photo to identify trash type</p>
+          <div class="flex flex-col items-center">
+            <img src="/img/group/app2.jpeg" class="w-full max-w-xs object-contain" alt="App Screenshot 2" />
+            <p class="text-sm mt-2 text-center">Take photo to identify trash type</p>
           </div>
-          <div class="text-center">
-            <img src="/img/group/app3.jpeg" class="w-40" alt="App Screenshot 3" />
-            <p class="text-sm mt-1">Call trash can</p>
+          <div class="flex flex-col items-center">
+            <img src="/img/group/app3.jpeg" class="w-full max-w-xs object-contain" alt="App Screenshot 3" />
+            <p class="text-sm mt-2 text-center">Call trash can</p>
           </div>
         </div>
         <p class="mt-2">

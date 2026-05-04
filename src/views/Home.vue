@@ -1,32 +1,22 @@
 <template>
   <div>
     <h1 class="text-2xl font-bold text-gray-900 font-serif">Hi, Welcome!</h1>
-    <div class="mt-4 space-y-4 text-gray-700 font-serif leading-relaxed">
+    <div class="mt-4 space-y-4 text-gray-700 font-serif leading-relaxed text-justify">
       <h3 class="text-lg font-semibold">Nice To Meet U All!</h3>
       <p>
-        I am a master student in the
-        <a href="https://me.columbia.edu/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Department of Mechanical Engineering
-          in Robotics</a>
-        at
-        <a href="https://www.columbia.edu/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Columbia University</a>. I obtained
-        my bachelor degree from
+        I am currently a Senior AI Engineer at <strong>ByteDance</strong>, leading the development of <strong>CommentLLM</strong> — a comprehensive comment understanding system that analyzes sentiment scores, relevance, and ad content detection using both text and multimodal LLMs. This work has optimized comment ranking algorithms and ad distribution strategies, leveraging advanced LLM techniques including SFT, RL, and Agent harness.
+      </p>
+      <p>
+        Before joining ByteDance in 2024, I worked at <strong>vivo</strong> (2020–2024), where I built recommendation systems for operational benefits and developed LLM Agent data assistants. My expertise spans <strong>Robot Learning</strong> and <strong>Large Language Models (LLMs)</strong>.
+      </p>
+      <p>
+        I hold a master's degree in <strong>Robotics</strong> from
+        <a href="https://www.columbia.edu/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Columbia University</a>, where I worked on autonomous planning and AI-powered visual recognition systems, including a trash-classifying cleaning robot and video recommendation systems. I obtained my bachelor's degree from
         <a href="https://www.cityu.edu.hk/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">City University of Hong Kong</a>
-        in Energy Science and Engineering major and Computer Science minor in 2014.
+        in Energy Science and Engineering and Computer Science in 2014.
       </p>
       <p>
-        I love traveling and food, which might be the origin of happiness in life.
-        As a Chinese saying goes, "thounds of books reading will be less than a thousand mile traving".
-        I love to visit places of books that I read, such as Taiwan, Beijing, Harbin and Korea.
-        Those places leave me great impressions. As for cooking, it might be a necessary skills
-        for a student living far away from hometown. I practice Chinese food a lot. Hope to share with you someday!
-      </p>
-      <p>
-        Also, as a lover of robotics, I participated a research about tiling robot design in
-        <a href="https://www.linkedin.com/company/roboticplus/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">RoboticPlus</a>,
-        which is a intelligent robot that can complete tiling autonomously. In my opinion, the development
-        of robotics might change the architecture field and making future building more intelligent and
-        friendly. In the following years, I hope I will have more chances to create innovations and strengthen myself in
-        robotics field.
+        Beyond work, I love traveling and cooking. As a Chinese saying goes, "Reading thousands of books is not as beneficial as traveling thousands of miles." Exploring new places and experimenting with Chinese cuisine keep my life balanced and inspired.
       </p>
     </div>
   </div>

@@ -1,7 +1,5 @@
 export const storiesItems = [
-  { label: 'Biography', to: '/bio' },
-  { label: 'Share', to: '/share' },
-  { label: 'TechBook', to: '/studys/techbook' },
+  { label: 'Algorithm Training', to: '/algorithm-training' },
   { label: 'IoT Smart Movable Trash Bin Project', to: '/project/iot' },
   { label: 'Big Data Analytics Paper', href: '/file/bigdata.pdf', external: true }
 ]

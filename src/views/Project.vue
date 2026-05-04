@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-2xl font-bold text-gray-900 font-serif">Selected Projects</h1>
-    <div class="mt-4 space-y-6 text-gray-700 font-serif leading-relaxed">
+    <div class="mt-4 space-y-6 text-gray-700 font-serif leading-relaxed text-justify">
 
       <section>
         <h3 id="tiling_robot" class="text-lg font-semibold">Tiling Robot Design</h3>

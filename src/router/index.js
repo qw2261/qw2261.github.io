@@ -23,18 +23,8 @@ const routes = [
     component: () => import('@/views/Project.vue')
   },
   {
-    path: '/bio',
-    name: 'Bio',
-    component: () => import('@/views/Bio.vue')
-  },
-  {
-    path: '/share',
-    name: 'Share',
-    component: () => import('@/views/Share.vue')
-  },
-  {
-    path: '/studys/techbook',
-    name: 'TechBook',
+    path: '/algorithm-training',
+    name: 'AlgorithmTraining',
     component: () => import('@/views/TechBook.vue')
   },
   {
