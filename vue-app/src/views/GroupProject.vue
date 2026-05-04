@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold text-gray-900">Smart Movable Trash-Bin With Trash Identification in Office</h1>
-    <p class="text-sm text-gray-500 mt-1">Columbia University · EECS E4764 Fall'19 · Team 3 Project Report</p>
-    <div class="mt-6 space-y-8 text-gray-700">
+    <h1 class="text-2xl font-bold text-gray-900 font-serif">Smart Movable Trash-Bin With Trash Identification in Office</h1>
+    <p class="text-sm text-gray-400 mt-1 font-mono">Columbia University · EECS E4764 Fall'19 · Team 3 Project Report</p>
+    <div class="mt-6 space-y-8 text-gray-700 font-serif leading-relaxed">
 
       <section id="abstract">
         <div class="relative w-full" style="padding-bottom: 56.25%; height: 0;">
@@ -33,7 +33,7 @@
       </section>
 
       <section id="motivation">
-        <h2 class="text-xl font-semibold border-b border-gray-200 pb-1">Motivation</h2>
+        <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">Motivation</h2>
         <div class="mt-2 max-w-lg mx-auto">
           <img src="https://www.telegraph.co.uk/content/dam/news/peoples-daily/chinese-woman-emptying-bin.jpg"
             alt="Trash sorting" class="w-full" />
@@ -68,7 +68,7 @@
       </section>
 
       <section id="system">
-        <h2 class="text-xl font-semibold border-b border-gray-200 pb-1">System</h2>
+        <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">System</h2>
 
         <h3 class="text-lg font-semibold mt-4">Architecture</h3>
         <div class="mt-2 max-w-lg mx-auto">
@@ -141,7 +141,7 @@
       </section>
 
       <section id="results">
-        <h2 class="text-xl font-semibold border-b border-gray-200 pb-1">Results</h2>
+        <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">Results</h2>
         <div class="mt-2 max-w-lg mx-auto">
           <img src="/img/group/result_1.png" alt="Results 1" class="w-full" />
         </div>
@@ -165,7 +165,7 @@
       </section>
 
       <section id="references">
-        <h2 class="text-xl font-semibold border-b border-gray-200 pb-1">References</h2>
+        <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">References</h2>
         <ol class="mt-2 list-decimal pl-5 space-y-1 text-sm">
           <li>B. Chowdhury and M. U. Chowdhury, "RFID-based Real-time Smart Waste Management System," in Australasian
             Telecommunication Networks and Applications Conference, 2007, no. December, pp. 175–180.</li>
@@ -190,19 +190,19 @@
       </section>
 
       <section id="team">
-        <h2 class="text-xl font-semibold border-b border-gray-200 pb-1">Our Team</h2>
+        <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">Our Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
           <div class="text-center">
             <img src="https://qw2261.github.io/img/head.jpeg" alt="Qi Wang" class="w-32 h-32 rounded-full mx-auto" />
             <h3 class="font-semibold mt-2">
-              <a href="https://qw2261.github.io/" class="text-blue-600 hover:underline">Qi Wang</a>
+              <a href="https://qw2261.github.io/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Qi Wang</a>
             </h3>
             <p class="text-sm mt-1">Master student in Mechanical Engineering (Robotics) at Columbia University.</p>
           </div>
           <div class="text-center">
             <img src="/img/group/yunqingxiao.png" alt="Yunqing Xiao" class="w-32 h-32 rounded-full mx-auto" />
             <h3 class="font-semibold mt-2">
-              <a href="https://www.linkedin.com/in/yunqingxiao/" class="text-blue-600 hover:underline">Yunqing Xiao</a>
+              <a href="https://www.linkedin.com/in/yunqingxiao/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Yunqing Xiao</a>
             </h3>
             <p class="text-sm mt-1">Master student in Computer Engineering at Columbia University.</p>
           </div>
@@ -216,19 +216,19 @@
       </section>
 
       <section id="contact">
-        <h2 class="text-xl font-semibold border-b border-gray-200 pb-1">Contact</h2>
+        <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">Contact</h2>
         <div class="mt-2 space-y-1 text-sm">
           <p><strong>Qi Wang: </strong><a href="mailto:qw2261@columbia.edu"
-              class="text-blue-600 hover:underline">qw2261@columbia.edu</a></p>
+              class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">qw2261@columbia.edu</a></p>
           <p><strong>Yunqing Xiao: </strong><a href="mailto:yx2542@columbia.edu"
-              class="text-blue-600 hover:underline">yx2542@columbia.edu</a></p>
+              class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">yx2542@columbia.edu</a></p>
           <p><strong>Zhihao Zheng: </strong><a href="mailto:zz2698@columbia.edu"
-              class="text-blue-600 hover:underline">zz2698@columbia.edu</a></p>
-          <p class="mt-2"><a href="https://github.com/qw2261/IoT-Project" class="text-blue-600 hover:underline"><strong>Project
+              class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">zz2698@columbia.edu</a></p>
+          <p class="mt-2"><a href="https://github.com/qw2261/IoT-Project" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors"><strong>Project
                 Code</strong></a> is uploaded to GitHub!</p>
           <p class="mt-2"><strong>Columbia University </strong><a href="http://www.ee.columbia.edu"
-              class="text-blue-600 hover:underline">Department of Electrical Engineering</a></p>
-          <p><strong>Instructor:</strong> <a href="http://fredjiang.com/" class="text-blue-600 hover:underline">Professor
+              class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Department of Electrical Engineering</a></p>
+          <p><strong>Instructor:</strong> <a href="http://fredjiang.com/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Professor
               Xiaofan (Fred) Jiang</a></p>
         </div>
       </section>

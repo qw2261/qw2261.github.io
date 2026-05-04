@@ -1,16 +1,16 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold text-gray-900">Hi, Welcome!</h1>
-    <div class="mt-4 space-y-4 text-gray-700">
+    <h1 class="text-2xl font-bold text-gray-900 font-serif">Hi, Welcome!</h1>
+    <div class="mt-4 space-y-4 text-gray-700 font-serif leading-relaxed">
       <h3 class="text-lg font-semibold">Nice To Meet U All!</h3>
       <p>
         I am a master student in the
-        <a href="https://me.columbia.edu/" class="text-blue-600 hover:underline">Department of Mechanical Engineering
+        <a href="https://me.columbia.edu/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Department of Mechanical Engineering
           in Robotics</a>
         at
-        <a href="https://www.columbia.edu/" class="text-blue-600 hover:underline">Columbia University</a>. I obtained
+        <a href="https://www.columbia.edu/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Columbia University</a>. I obtained
         my bachelor degree from
-        <a href="https://www.cityu.edu.hk/" class="text-blue-600 hover:underline">City University of Hong Kong</a>
+        <a href="https://www.cityu.edu.hk/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">City University of Hong Kong</a>
         in Energy Science and Engineering major and Computer Science minor in 2014.
       </p>
       <p>
@@ -22,7 +22,7 @@
       </p>
       <p>
         Also, as a lover of robotics, I participated a research about tiling robot design in
-        <a href="https://www.linkedin.com/company/roboticplus/" class="text-blue-600 hover:underline">RoboticPlus</a>,
+        <a href="https://www.linkedin.com/company/roboticplus/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">RoboticPlus</a>,
         which is a intelligent robot that can complete tiling autonomously. In my opinion, the development
         of robotics might change the architecture field and making future building more intelligent and
         friendly. In the following years, I hope I will have more chances to create innovations and strengthen myself in

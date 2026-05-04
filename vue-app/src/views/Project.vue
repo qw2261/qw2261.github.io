@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold text-gray-900">Selected Projects</h1>
-    <div class="mt-4 space-y-6 text-gray-700">
+    <h1 class="text-2xl font-bold text-gray-900 font-serif">Selected Projects</h1>
+    <div class="mt-4 space-y-6 text-gray-700 font-serif leading-relaxed">
 
       <section>
         <h3 id="tiling_robot" class="text-lg font-semibold">Tiling Robot Design</h3>
@@ -15,10 +15,10 @@
 
         <h4 class="text-base font-semibold mt-4">1. Aubo Force Feedback System</h4>
         <p class="mt-2">
-          I visited <a href="https://github.com/lg609/aubo_robot" class="text-blue-600 hover:underline">Aubo Official
+          I visited <a href="https://github.com/lg609/aubo_robot" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Aubo Official
             SDK</a> and
           collected electrical current of every joint. From
-          <a href="https://journals.sagepub.com/doi/full/10.1177/1729881419846712" class="text-blue-600 hover:underline">a
+          <a href="https://journals.sagepub.com/doi/full/10.1177/1729881419846712" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">a
             paper</a>
           , there should be a linear regression model for currents and joint torques. In this way, I used
           torque sensor to collect torques and corresponding currents. After that, I trained a linear
@@ -29,7 +29,7 @@
           <img
             src="https://latex.codecogs.com/gif.latex?\inline&space;J^T[F_x,&space;F_y,&space;F_z,&space;\tau_x,&space;\tau_y,&space;\tau_z]&space;=&space;[\tau_1,&space;\tau_2,&space;\tau_3,&space;\tau_4,&space;\tau_5,&space;\tau_6]"
             class="inline-block align-middle my-2" />,
-          I used <a href="https://moveit.ros.org/" class="text-blue-600 hover:underline">MoveIt!</a> to obtain the joint
+          I used <a href="https://moveit.ros.org/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">MoveIt!</a> to obtain the joint
           states and Jacobian
           matrix based upon URDF of Aubo Robot to compute the force and torque in the end-effector with the help of
           Eigen
@@ -69,7 +69,7 @@
           corner of tile of last unit in the base link coordinate, which will be completed before sucking board and is a
           operation that
           the robot arm will move to neighbor of tile of last unit to compute the corner position. Then, I implement
-          computeCartesianPath in <a href="https://moveit.ros.org/" class="text-blue-600 hover:underline">MoveIt!</a> to
+          computeCartesianPath in <a href="https://moveit.ros.org/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">MoveIt!</a> to
           finish the injecting process as the
           video shows.
         </p>
@@ -81,15 +81,15 @@
         <p class="mt-2">
           The final result could be like the picture below with the help of scraper.
         </p>
-        <img src="@/assets/images/injecting.jpeg" alt="Result" class="mt-2 max-w-full" />
+        <img src="@/assets/images/injecting.jpeg" alt="Result" class="mt-2 max-w-full rounded" />
 
         <p class="mt-4">
           This is our group photo.
         </p>
-        <img src="@/assets/images/roboticplus.jpeg" alt="RoboticPlus" class="mt-2 max-w-full" />
+        <img src="@/assets/images/roboticplus.jpeg" alt="RoboticPlus" class="mt-2 max-w-full rounded" />
       </section>
 
-      <section class="border-t border-gray-200 pt-6">
+      <section class="border-t border-gray-100 pt-6">
         <h3 id="iot_project" class="text-lg font-semibold">IoT Project: Smart Movable Trash Bin</h3>
         <div class="relative w-full mt-2" style="padding-bottom: 56.25%; height: 0;">
           <iframe src="https://www.youtube.com/embed/5ggCkcRDrto"
@@ -116,10 +116,10 @@
         </p>
         <p class="mt-2">
           The details of this project is shown in the page
-          <router-link to="/project/iot" class="text-blue-600 hover:underline">IOT SMART MOVABLE TRASH BIN
+          <router-link to="/project/iot" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">IOT SMART MOVABLE TRASH BIN
             PROJECT</router-link>
           and the code in
-          <a href="https://github.com/qw2261/IoT-Project" class="text-blue-600 hover:underline">my github
+          <a href="https://github.com/qw2261/IoT-Project" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">my github
             repository</a>.
         </p>
       </section>

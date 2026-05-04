@@ -1,20 +1,18 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold text-gray-900">Blog</h1>
-    <div class="mt-4 space-y-3">
-      <div
+    <h1 class="text-2xl font-bold text-gray-900 font-serif">Blog</h1>
+    <div class="mt-6 space-y-0">
+      <router-link
         v-for="post in sortedPosts"
         :key="post.id"
-        class="flex items-baseline gap-3 py-2 border-b border-gray-100 last:border-0"
+        :to="`/blog/${post.id}`"
+        class="flex items-baseline gap-4 py-4 border-b border-gray-100 last:border-0 group"
       >
-        <span class="text-sm text-gray-400 whitespace-nowrap">{{ formatDate(post.date) }}</span>
-        <router-link
-          :to="`/blog/${post.id}`"
-          class="text-blue-600 hover:underline text-lg"
-        >
+        <span class="text-xs text-gray-400 whitespace-nowrap font-mono tabular-nums">{{ formatDate(post.date) }}</span>
+        <span class="text-gray-800 group-hover:text-gray-500 transition-colors text-base font-serif">
           {{ post.title }}
-        </router-link>
-      </div>
+        </span>
+      </router-link>
     </div>
   </div>
 </template>
