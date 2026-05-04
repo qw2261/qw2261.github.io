@@ -1,10 +1,7 @@
-_site
-_posts/_draft
-_posts/_archive
-_archive
-node_modules
-vue-app/node_modules
-dist
-.vscode
+node_modules/
+dist/
 .DS_Store
 *.log
+.vscode/
+*.swp
+*.swo

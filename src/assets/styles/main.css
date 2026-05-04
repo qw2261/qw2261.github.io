@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-700 font-serif;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors;
+  }
+
+  .nav-link.router-link-exact-active {
+    @apply text-gray-900 font-semibold;
+  }
+}
