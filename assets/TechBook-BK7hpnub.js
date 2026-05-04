@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as s,b as r}from"./index-zZIDnr91.js";const c={};function l(n,e){return t(),s("div",null,[...e[0]||(e[0]=[r("iframe",{src:"/studys/TechBook.html",class:"w-full border-0",style:{"min-height":"80vh"},title:"TechBook"},null,-1)])])}const f=o(c,[["render",l]]);export{f as default};
