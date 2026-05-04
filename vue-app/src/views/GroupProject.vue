@@ -134,7 +134,7 @@
         <div class="mt-2 max-w-lg mx-auto">
           <img src="/img/group/server_prototype.png" alt="Server Prototype" class="w-full" />
         </div>
-        <div class="flex flex-wrap gap-4 mt-2">
+        <div class="flex flex-wrap justify-center gap-4 mt-2 max-w-lg mx-auto">
           <img src="/img/group/app_prototype1.png" class="w-64" alt="App Prototype 1" />
           <img src="/img/group/app_prototype2.png" class="w-64" alt="App Prototype 2" />
         </div>
@@ -193,21 +193,21 @@
         <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">Our Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
           <div class="text-center">
-            <img src="https://qw2261.github.io/img/head.jpeg" alt="Qi Wang" class="w-32 h-32 rounded-full mx-auto" />
+            <img src="/img/group/qiwang.jpeg" alt="Qi Wang" class="w-32 h-32 rounded-full mx-auto object-cover" />
             <h3 class="font-semibold mt-2">
               <a href="https://qw2261.github.io/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Qi Wang</a>
             </h3>
             <p class="text-sm mt-1">Master student in Mechanical Engineering (Robotics) at Columbia University.</p>
           </div>
           <div class="text-center">
-            <img src="/img/group/yunqingxiao.png" alt="Yunqing Xiao" class="w-32 h-32 rounded-full mx-auto" />
+            <img src="/img/group/yunqingxiao.png" alt="Yunqing Xiao" class="w-32 h-32 rounded-full mx-auto object-cover" />
             <h3 class="font-semibold mt-2">
               <a href="https://www.linkedin.com/in/yunqingxiao/" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Yunqing Xiao</a>
             </h3>
             <p class="text-sm mt-1">Master student in Computer Engineering at Columbia University.</p>
           </div>
           <div class="text-center">
-            <img src="/img/group/zhihaozheng.jpeg" alt="Zhihao Zheng" class="w-32 h-32 rounded-full mx-auto" />
+            <img src="/img/group/zhihaozheng.jpeg" alt="Zhihao Zheng" class="w-32 h-32 rounded-full mx-auto object-cover" />
             <h3 class="font-semibold mt-2">Zhihao Zheng</h3>
             <p class="text-sm mt-1">Master student of Computer Engineering at Columbia University. In charge of chassis.
             </p>
