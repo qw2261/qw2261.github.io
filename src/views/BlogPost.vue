@@ -23,12 +23,16 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { posts } from '@/data/posts'
+import { getPostById } from '@/data/posts'
 
 const route = useRoute()
-const post = computed(() => posts.find(p => p.id === route.params.id))
+const post = ref(null)
+
+onMounted(async () => {
+  post.value = await getPostById(route.params.id)
+})
 
 const formattedDate = computed(() => {
   if (!post.value) return ''

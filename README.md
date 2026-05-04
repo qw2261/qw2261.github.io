@@ -28,31 +28,71 @@ npm run dev        # 启动后访问 http://localhost:5173
 ### 构建生产版本
 
 ```bash
-cd vue-app
-npm run build      # 输出到 blog/dist/
+npm run build      # 输出到 dist/
 npm run preview    # 本地预览构建产物
 ```
 
-### 目录结构（当前状态 M0）
+### 写博客
+
+博客文章使用 Markdown 格式，存储在 `src/data/posts/` 目录下。
+
+**新增博客步骤：**
+
+1. 在 `src/data/posts/` 目录新建 `.md` 文件，例如 `new-post.md`：
+   ```markdown
+   ## 我的新博客标题
+
+   2026-05-04，于北京
+
+   这是我的第一篇用 Markdown 写的博客！
+
+   支持 **加粗**、*斜体*、~~删除线~~。
+
+   ### 子标题
+
+   - 无序列表项1
+   - 无序列表项2
+
+   ![图片说明](/img/xxx.jpeg)
+
+   [链接文字](https://example.com)
+   ```
+
+2. 在 `src/data/posts.js` 中添加元数据：
+   ```javascript
+   {
+     id: 'new-post',       // 必须和文件名一致（不含 .md）
+     title: '我的新博客标题',
+     date: '2026-05-04'
+   }
+   ```
+
+### 目录结构（最终状态 M7）
 
 ```
 blog/
-├── vue-app/               # Vue 应用源码
-│   ├── public/            # 不编译的静态资源（PDF、favicon）
-│   ├── src/
-│   │   ├── assets/        # 图片、样式
-│   │   ├── components/    # 组件（M1 开始创建）
-│   │   ├── data/          # 数据文件（navigation.js、posts.js）
-│   │   ├── router/        # 路由配置
-│   │   └── views/         # 页面组件（占位状态）
-│   ├── index.html         # Vite 入口
-│   ├── vite.config.js
-│   ├── tailwind.config.js
-│   └── package.json
+├── public/                # 不编译的静态资源（PDF、favicon、图片）
+│   ├── file/              # PDF 文件
+│   └── img/               # 静态图片
+├── src/
+│   ├── assets/            # 编译的资源（样式、图片）
+│   ├── components/        # 组件（Header、Footer、Sidebar、Dropdown、BlogCard）
+│   ├── data/              # 数据文件
+│   │   ├── posts/         # Markdown 博客文章
+│   │   │   ├── noscience.md
+│   │   │   ├── shanghai.md
+│   │   │   └── ...
+│   │   ├── posts.js       # 博客元数据
+│   │   └── navigation.js  # 导航数据
+│   ├── router/            # 路由配置
+│   └── views/             # 页面组件（Home、Blog、BlogPost、Project、Bio、Share、TechBook、GroupProject）
+├── index.html             # Vite 入口
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+├── .gitignore
 ├── dist/                  # 构建产物（gitignore）
-├── html/                  # 旧站文件（M6 删除）
-├── css/
-├── js/
 └── README.md
 ```
 
@@ -66,7 +106,8 @@ blog/
 | M3 博客系统 | ✅ 已完成 | 2026-05-03 | 5 篇博文数据驱动渲染，Blog 列表 + BlogPost 详情，PT Serif 排版 |
 | M4 构建验证 | ✅ 已完成 | 2026-05-03 | dist/ 独立可运行，23 个静态资源完整，GH Pages 兼容 |
 | M5 部署上线 | ✅ 已完成 | 2026-05-04 | GitHub Actions 自动部署到 gh-pages，旧链接 404 重定向，线上全页可访问 |
-| M6 清理收尾 | ⬜ 待开始 | | 提升到根目录，删除旧文件 |
+| M6 清理收尾 | ✅ 已完成 | 2026-05-04 | Vue 应用提升到根目录，删除旧 Jekyll 文件，更新 GitHub Actions |
+| M7 博客系统优化 | ✅ 已完成 | 2026-05-04 | 支持 Markdown 写博客，文章内容存为独立 .md 文件 |
 
 ---
 
