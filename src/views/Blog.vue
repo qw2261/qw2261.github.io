@@ -8,7 +8,7 @@
         :to="`/blog/${post.id}`"
         class="flex items-baseline gap-4 py-4 border-b border-gray-100 last:border-0 group"
       >
-        <span class="text-xs text-gray-400 whitespace-nowrap font-mono tabular-nums">{{ formatDate(post.date) }}</span>
+        <span class="text-xs text-gray-400 whitespace-nowrap font-mono tabular-nums w-28 shrink-0">{{ formatDate(post.date) }}</span>
         <span class="text-gray-800 group-hover:text-gray-500 transition-colors text-base font-serif">
           {{ post.title }}
         </span>
