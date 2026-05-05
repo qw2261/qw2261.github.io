@@ -5,7 +5,7 @@
 
       <section>
         <h2 class="text-xl font-semibold border-b border-gray-100 pb-1">C++ Notes</h2>
-        <ul class="mt-2 space-y-1 text-sm list-disc list-inside">
+        <ul class="mt-2 space-y-1 text-sm list-disc list-outside text-left">
           <li>scanf does not support string (C++ class)</li>
           <li>Mathematical expressions and algorithm complexity analysis</li>
         </ul>
