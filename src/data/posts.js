@@ -1,45 +1,55 @@
 import { marked } from 'marked'
 
-export const posts = [
-  {
-    id: 'noscience2',
-    title: '没有科学的世界 (二）',
-    date: '2026-05-03'
-  },
-  {
-    id: 'qingmingsuibi',
-    title: '清明随笔',
-    date: '2020-04-04'
-  },
-  {
-    id: 'younan-1',
-    title: '囿南记事（篇一）',
-    date: '2020-02-03'
-  },
-  {
-    id: 'shanghai',
-    title: '蝈蝈叫了一夏-回忆上海工作的日子',
-    date: '2026-03-16'
-  },
-  {
-    id: 'noscience',
-    title: '没有科学的世界 (一）',
-    date: '2018-07-11'
-  }
-]
+const rawModules = import.meta.glob('./posts/*.md', { query: '?raw', import: 'default', eager: true })
 
-const postModules = import.meta.glob('./posts/*.md', { query: '?raw', import: 'default' })
+function parsePost(filePath, raw) {
+  const id = filePath.replace('./posts/', '').replace('.md', '')
+  const lines = raw.split('\n')
+
+  let title = id
+  let date = '2020-01-01'
+  let contentStart = 0
+
+  for (let i = 0; i < Math.min(lines.length, 10); i++) {
+    const line = lines[i].trim()
+    if (!title || title === id) {
+      if (line.startsWith('## ')) {
+        title = line.replace('## ', '').trim()
+        contentStart = i + 1
+        continue
+      }
+    }
+    const dateMatch = line.match(/^(\d{4}[/-]\d{2}[/-]\d{2})/)
+    if (dateMatch && contentStart > 0) {
+      date = dateMatch[1].replace(/\//g, '-')
+      contentStart = i + 1
+      break
+    }
+  }
+
+  const content = lines.slice(contentStart).join('\n').trim()
+
+  return { id, title, date, content }
+}
+
+const allPosts = Object.entries(rawModules).map(([path, raw]) => parsePost(path, raw))
+
+export const posts = allPosts
+  .map(({ id, title, date }) => ({ id, title, date }))
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+
+const contentMap = new Map()
+allPosts.forEach(p => contentMap.set(p.id, p.content))
 
 export async function getPostById(id) {
-  const post = posts.find(p => p.id === id)
-  if (!post) return null
-  
-  const filePath = `./posts/${id}.md`
-  const content = await postModules[filePath]()
+  const meta = posts.find(p => p.id === id)
+  if (!meta) return null
+
+  const content = contentMap.get(id) || ''
   const htmlContent = marked(content)
-  
+
   return {
-    ...post,
+    ...meta,
     content: htmlContent
   }
 }
