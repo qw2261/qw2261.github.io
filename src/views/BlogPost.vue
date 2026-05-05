@@ -10,17 +10,6 @@
 
       <div class="mt-8 flex items-center gap-5 py-3 border-t border-b border-gray-100">
         <button
-          @click="toggleLike"
-          class="flex items-center gap-1.5 text-sm transition-all duration-200 hover:scale-110 active:scale-95"
-          :class="liked ? 'text-red-500' : 'text-gray-400 hover:text-red-400'"
-        >
-          <svg class="w-5 h-5" :fill="liked ? 'currentColor' : 'none'" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-          </svg>
-          <span>{{ likeCount }}</span>
-        </button>
-
-        <button
           @click="sharePost"
           class="flex items-center gap-1.5 text-sm text-gray-400 hover:text-blue-500 transition-all duration-200 hover:scale-110 active:scale-95"
         >
@@ -61,14 +50,11 @@ import GiscusComment from '@/components/GiscusComment.vue'
 const route = useRoute()
 const post = ref(null)
 const loading = ref(true)
-const liked = ref(false)
-const likeCount = ref(0)
 const shareMsg = ref('')
 
 onMounted(async () => {
   post.value = await getPostById(route.params.id)
   loading.value = false
-  loadLikeState()
 })
 
 const formattedDate = computed(() => {
@@ -76,33 +62,6 @@ const formattedDate = computed(() => {
   const d = new Date(post.value.date)
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
 })
-
-function getStorageKey() {
-  return `blog_likes_${route.params.id}`
-}
-
-function loadLikeState() {
-  try {
-    const data = JSON.parse(localStorage.getItem(getStorageKey()) || '{}')
-    liked.value = data.liked || false
-    likeCount.value = data.count || 0
-  } catch {
-    liked.value = false
-    likeCount.value = 0
-  }
-}
-
-function toggleLike() {
-  liked.value = !liked.value
-  likeCount.value += liked.value ? 1 : -1
-  if (likeCount.value < 0) likeCount.value = 0
-  try {
-    localStorage.setItem(getStorageKey(), JSON.stringify({
-      liked: liked.value,
-      count: likeCount.value
-    }))
-  } catch {}
-}
 
 async function sharePost() {
   const url = window.location.href
