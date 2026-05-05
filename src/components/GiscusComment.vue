@@ -19,11 +19,11 @@ const GISCUS_CONFIG = {
   repoId: 'R_kgDOSTk40g',
   category: 'Blog Comments',
   categoryId: 'DIC_kwDOSTk40s4C8UY2',
-  mapping: 'url',
+  mapping: 'specific',
   reactionsEnabled: '1',
   emitMetadata: '0',
   inputPosition: 'bottom',
-  theme: 'light',
+  theme: 'https://qw2261.github.io/giscus-zhihu.css',
   lang: 'zh-CN'
 }
 
