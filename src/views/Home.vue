@@ -4,15 +4,15 @@
     <div class="mt-4 space-y-4 text-gray-700 font-serif leading-relaxed text-justify">
       <h3 class="text-lg font-semibold">Nice To Meet U All!</h3>
       <p>
-        I am currently a Senior AI Engineer at <strong>ByteDance</strong>, leading the development of <strong>CommentLLM</strong> — a comprehensive comment understanding system that analyzes sentiment scores, relevance, and ad content detection using both text and multimodal LLMs. This work has optimized comment ranking algorithms and ad distribution strategies, leveraging advanced LLM techniques including SFT, RL, and Agent harness.
+        I am currently a Senior AI Engineer at <a href="https://www.bytedance.com/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors inline-flex items-center gap-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/ByteDance_logo_English.svg/500px-ByteDance_logo_English.svg.png" alt="ByteDance" class="h-4 inline" /></a>, leading the development of <strong>CommentLLM</strong> — a comprehensive comment understanding system that analyzes sentiment scores, relevance, and ad content detection using both text and multimodal LLMs. This work has optimized comment ranking algorithms and ad distribution strategies, leveraging advanced LLM techniques including SFT, RL, and Agent harness.
       </p>
       <p>
         Before joining ByteDance in 2024, I worked at <strong>vivo</strong> (2020–2024), where I built recommendation systems for operational benefits and developed LLM Agent data assistants. My expertise spans <strong>Robot Learning</strong> and <strong>Large Language Models (LLMs)</strong>.
       </p>
       <p>
         I hold a master's degree in <strong>Robotics</strong> from
-        <a href="https://www.columbia.edu/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">Columbia University</a>, where I worked on autonomous planning and AI-powered visual recognition systems, including a trash-classifying cleaning robot and video recommendation systems. I obtained my bachelor's degree from
-        <a href="https://www.cityu.edu.hk/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors">City University of Hong Kong</a>
+        <a href="https://www.columbia.edu/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors inline-flex items-center gap-1"><img src="https://www.columbia.edu/content/themes/custom/columbia/assets/img/cu-header.svg" alt="Columbia" class="h-4 inline" /></a>, where I worked on autonomous planning and AI-powered visual recognition systems, including a trash-classifying cleaning robot and video recommendation systems. I obtained my bachelor's degree from
+        <a href="https://www.cityu.edu.hk/" target="_blank" rel="noopener noreferrer" class="text-gray-800 border-b border-gray-300 hover:border-gray-600 hover:text-gray-900 transition-colors inline-flex items-center gap-1"><img src="https://upload.wikimedia.org/wikipedia/en/4/4a/CityU_logo.svg" alt="CityU" class="h-4 inline" /></a>
         in Energy Science and Engineering and Computer Science in 2014.
       </p>
       <p>
