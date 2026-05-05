@@ -70,16 +70,21 @@ async function sharePost() {
   if (navigator.share) {
     try {
       await navigator.share({ title, url })
-    } catch {}
-  } else {
-    try {
-      await navigator.clipboard.writeText(url)
-      shareMsg.value = 'Link copied!'
-      setTimeout(() => { shareMsg.value = '' }, 2000)
     } catch {
-      shareMsg.value = 'Failed to copy'
-      setTimeout(() => { shareMsg.value = '' }, 2000)
+      await copyToClipboard(url)
     }
+  } else {
+    await copyToClipboard(url)
   }
+}
+
+async function copyToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text)
+    shareMsg.value = 'Link copied!'
+  } catch {
+    shareMsg.value = 'Failed to copy'
+  }
+  setTimeout(() => { shareMsg.value = '' }, 2000)
 }
 </script>
