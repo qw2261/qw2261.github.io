@@ -19,7 +19,7 @@ const GISCUS_CONFIG = {
   repoId: 'R_kgDOSTk40g',
   category: 'Blog Comments',
   categoryId: 'DIC_kwDOSTk40s4C8UY2',
-  mapping: 'specific',
+  mapping: 'url',
   reactionsEnabled: '1',
   emitMetadata: '0',
   inputPosition: 'bottom',
