@@ -12,13 +12,13 @@
     <p class="text-gray-400 text-xs italic font-serif leading-relaxed hidden md:block">私の歩みは遅いが、歩んだ道を引き返すことはない</p>
     <div class="mt-4 md:mt-6 flex flex-row md:flex-col justify-center md:items-center gap-4 md:gap-0">
       <a href="https://github.com/qw2261" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center h-8 text-sm text-gray-500 hover:text-gray-800 transition-colors group w-28">
-        <img src="@/assets/images/github-icon.png" class="w-4 h-4 mr-2 opacity-60 group-hover:opacity-100 transition-opacity" />Github
+        <span class="w-4 h-4 flex items-center justify-center mr-2"><img src="@/assets/images/github-icon.png" class="w-4 h-4 opacity-60 group-hover:opacity-100 transition-opacity object-contain" /></span>Github
       </a>
       <a href="https://www.linkedin.com/in/qwangmatt/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center h-8 text-sm text-gray-500 hover:text-gray-800 transition-colors group w-28">
-        <img src="@/assets/images/linkedin-icon.jpg" class="w-4 h-4 mr-2 opacity-60 group-hover:opacity-100 transition-opacity" />LinkedIn
+        <span class="w-4 h-4 flex items-center justify-center mr-2"><img src="@/assets/images/linkedin-icon.jpg" class="w-4 h-4 opacity-60 group-hover:opacity-100 transition-opacity object-contain" /></span>LinkedIn
       </a>
       <a href="mailto:qw2261@columbia.edu" class="flex items-center justify-center h-8 text-sm text-gray-500 hover:text-gray-800 transition-colors group w-28">
-        <img src="@/assets/images/email-icon.png" class="w-4 h-4 mr-2 opacity-60 group-hover:opacity-100 transition-opacity" />Email
+        <span class="w-4 h-4 flex items-center justify-center mr-2"><img src="@/assets/images/email-icon.png" class="w-4 h-4 opacity-60 group-hover:opacity-100 transition-opacity object-contain" /></span>Email
       </a>
     </div>
   </aside>
