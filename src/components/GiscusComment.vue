@@ -23,7 +23,7 @@ const GISCUS_CONFIG = {
   reactionsEnabled: '1',
   emitMetadata: '0',
   inputPosition: 'bottom',
-  theme: 'preferred_color_scheme',
+  theme: 'https://qw2261.github.io/giscus-zhihu.css',
   lang: 'zh-CN'
 }
 

@@ -40,6 +40,9 @@
         </router-link>
       </div>
     </div>
+    <div v-else-if="loading" class="text-center py-12">
+      <p class="text-gray-400 text-sm">Loading...</p>
+    </div>
     <div v-else class="text-center py-12">
       <p class="text-gray-500">Post not found.</p>
       <router-link to="/blog" class="text-sm text-gray-500 hover:text-gray-800 mt-2 inline-block transition-colors">
@@ -57,12 +60,14 @@ import GiscusComment from '@/components/GiscusComment.vue'
 
 const route = useRoute()
 const post = ref(null)
+const loading = ref(true)
 const liked = ref(false)
 const likeCount = ref(0)
 const shareMsg = ref('')
 
 onMounted(async () => {
   post.value = await getPostById(route.params.id)
+  loading.value = false
   loadLikeState()
 })
 

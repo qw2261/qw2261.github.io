@@ -1,0 +1,175 @@
+/*! Zhihu-inspired light theme for Giscus */
+main {
+  --color-prettylights-syntax-comment:#6e7781;
+  --color-prettylights-syntax-constant:#0550ae;
+  --color-prettylights-syntax-entity:#8250df;
+  --color-prettylights-syntax-storage-modifier-import:#24292f;
+  --color-prettylights-syntax-entity-tag:#116329;
+  --color-prettylights-syntax-keyword:#cf222e;
+  --color-prettylights-syntax-string:#0a3069;
+  --color-prettylights-syntax-variable:#953800;
+  --color-prettylights-syntax-brackethighlighter-unmatched:#82071e;
+  --color-prettylights-syntax-invalid-illegal-text:#f6f8fa;
+  --color-prettylights-syntax-invalid-illegal-bg:#82071e;
+  --color-prettylights-syntax-carriage-return-text:#f6f8fa;
+  --color-prettylights-syntax-carriage-return-bg:#cf222e;
+  --color-prettylights-syntax-string-regexp:#116329;
+  --color-prettylights-syntax-markup-list:#3b2300;
+  --color-prettylights-syntax-markup-heading:#0550ae;
+  --color-prettylights-syntax-markup-italic:#24292f;
+  --color-prettylights-syntax-markup-bold:#24292f;
+  --color-prettylights-syntax-markup-deleted-text:#82071e;
+  --color-prettylights-syntax-markup-deleted-bg:#ffebe9;
+  --color-prettylights-syntax-markup-inserted-text:#116329;
+  --color-prettylights-syntax-markup-inserted-bg:#dafbe1;
+  --color-prettylights-syntax-markup-changed-text:#953800;
+  --color-prettylights-syntax-markup-changed-bg:#ffd8b5;
+  --color-prettylights-syntax-markup-ignored-text:#eaeef2;
+  --color-prettylights-syntax-markup-ignored-bg:#0550ae;
+  --color-prettylights-syntax-meta-diff-range:#8250df;
+  --color-prettylights-syntax-brackethighlighter-angle:#57606a;
+  --color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;
+  --color-prettylights-syntax-constant-other-reference-link:#0a3069;
+  --color-btn-text:#1a1a1a;
+  --color-btn-bg:#f6f8fa;
+  --color-btn-border:#e4e6eb;
+  --color-btn-shadow:none;
+  --color-btn-inset-shadow:none;
+  --color-btn-hover-bg:#f0f1f3;
+  --color-btn-hover-border:#d3d5d9;
+  --color-btn-active-bg:#ebecf0;
+  --color-btn-active-border:#d3d5d9;
+  --color-btn-selected-bg:#eeeff2;
+  --color-btn-primary-text:#fff;
+  --color-btn-primary-bg:#056de8;
+  --color-btn-primary-border:transparent;
+  --color-btn-primary-shadow:none;
+  --color-btn-primary-inset-shadow:none;
+  --color-btn-primary-hover-bg:#0460cc;
+  --color-btn-primary-hover-border:transparent;
+  --color-btn-primary-selected-bg:#0454b0;
+  --color-btn-primary-selected-shadow:none;
+  --color-btn-primary-disabled-text:#fffc;
+  --color-btn-primary-disabled-bg:#6db3f2;
+  --color-btn-primary-disabled-border:transparent;
+  --color-action-list-item-default-hover-bg:#f0f1f3;
+  --color-segmented-control-bg:#f0f1f3;
+  --color-segmented-control-button-bg:#fff;
+  --color-segmented-control-button-selected-border:#d3d5d9;
+  --color-fg-default:#1a1a1a;
+  --color-fg-muted:#8590a6;
+  --color-fg-subtle:#999;
+  --color-canvas-default:#fff;
+  --color-canvas-overlay:#fff;
+  --color-canvas-inset:#f8f9fa;
+  --color-canvas-subtle:#f8f9fa;
+  --color-border-default:#e4e6eb;
+  --color-border-muted:#ebeef5;
+  --color-neutral-muted:#8590a61a;
+  --color-accent-fg:#056de8;
+  --color-accent-emphasis:#056de8;
+  --color-accent-muted:#056de833;
+  --color-accent-subtle:#f0f6ff;
+  --color-success-fg:#0a6e3a;
+  --color-attention-fg:#9a6700;
+  --color-attention-muted:#d4a72c66;
+  --color-attention-subtle:#fff8c5;
+  --color-danger-fg:#d1242f;
+  --color-danger-muted:#ff818266;
+  --color-danger-subtle:#ffebe9;
+  --color-primer-shadow-inset:none;
+  --color-scale-gray-1:#f0f1f3;
+  --color-scale-blue-1:#e1f0ff;
+  --color-social-reaction-bg-hover:var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover:var(--color-scale-blue-1);
+}
+
+main .pagination-loader-container {
+  background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line.svg);
+}
+
+main .gsc-loading-image {
+  background-image: url(https://github.githubassets.com/images/mona-loading-default.gif);
+}
+
+.gsc-reactions-count {
+  display: none;
+}
+
+.gsc-timeline {
+  flex-direction: column-reverse;
+}
+
+.gsc-header {
+  padding-bottom: 0.75rem;
+}
+
+.gsc-comments > .gsc-header {
+  order: 1;
+}
+
+.gsc-comments > .gsc-comment-box {
+  margin-bottom: 1rem;
+  order: 2;
+}
+
+.gsc-comments > .gsc-timeline {
+  order: 3;
+}
+
+.gsc-comment-box {
+  border-radius: 8px;
+  border: 1px solid #e4e6eb;
+}
+
+.gsc-comment-box textarea {
+  border-radius: 6px;
+  border: 1px solid #e4e6eb;
+  font-size: 14px;
+}
+
+.gsc-comment-box textarea:focus {
+  border-color: #056de8;
+  box-shadow: 0 0 0 2px #056de820;
+}
+
+.gsc-comment {
+  border-bottom: 1px solid #f0f1f3;
+  padding: 12px 0;
+}
+
+.gsc-comment-author {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.gsc-comment-content {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #1a1a1a;
+}
+
+.gsc-comment-content p {
+  margin: 0.4em 0;
+}
+
+.gsc-reactions {
+  border-top: none;
+}
+
+.gsc-reaction-button {
+  border-radius: 16px;
+  border: 1px solid #e4e6eb;
+  transition: all 0.15s ease;
+}
+
+.gsc-reaction-button:hover {
+  border-color: #056de8;
+  background-color: #f0f6ff;
+}
+
+.gsc-reply {
+  padding-left: 8px;
+  border-left: 2px solid #f0f1f3;
+}
